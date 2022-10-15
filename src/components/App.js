@@ -3,6 +3,7 @@ import Tickler from "./Tickler";
 import MultiButton from "./MultiButton";
 import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
+import Clickable from "./Clicable";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <h3>onSubmit</h3>
       <Login />
       <hr />
+
+      <Clickable />
     </div>
   );
 }
